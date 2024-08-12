@@ -65,6 +65,10 @@ header {
     scale: 1.05;
 }
 
+.toggle_btn i {
+    color: #fff;
+}
+
 /* DROPDOWN MENU */
 
 .dropdown_menu {
