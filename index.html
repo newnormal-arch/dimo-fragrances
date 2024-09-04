@@ -21,6 +21,7 @@
     <title>Di.Mo Fragrances</title>
 </head>
 
+
 <body>
 
     <!-- HEADER -->
@@ -29,10 +30,10 @@
             <div class="logo"><a href="#">Di.Mo Fragrances</a></div>
             <ul class="links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
-            <a href="#" class="cta_btn"><i class='bx bx-shopping-bag'></i> Shop Now</a>
+            <a href="#products" class="cta_btn"><i class='bx bx-shopping-bag'></i> Shop Now</a>
             <div class="toggle_btn">
                 <i class='bx bx-menu'></i>
             </div>
@@ -40,9 +41,9 @@
 
         <div class="dropdown_menu">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#" class="cta_btn"><i class='bx bx-shopping-bag'></i> Shop Now</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#products" class="cta_btn"><i class='bx bx-shopping-bag'></i> Shop Now</a></li>
         </div>
     </header>
 
@@ -66,13 +67,13 @@
                     </div>
                     <div class="hero_btn">
                         <a href="#about">Learn More</a>
-                        <a href="#">Shop Now</a>
+                        <a href="#products">Shop Now</a>
                     </div>
                 </div>
             </div>
 
             <!-- ABOUT US SECTION -->
-            <div class="about_section">
+            <div class="about_section" id="about">
                 <div class="about_column">
                     <div class="about_title">Our Story</div>
                     <div class="about_description">A heavy, full-bodied, powdery, warm fragrance note, amber oil comes
@@ -80,7 +81,7 @@
                         synthetic and natural ingredients such as vanilla, patchouli, labdanum, styrax, and benzoin.
                     </div>
                     <div class="about_btn">
-                        <a href="#">Shop Now</a>
+                        <a href="#products">Shop Now</a>
                     </div>
                 </div>
                 <div class="about_column">
@@ -90,9 +91,328 @@
             </div>
 
             <!-- OUR PRODUCTS SECTION -->
-            <div class="products_section">
+            <div class="products_section" id="products">
                 <div class="products_heading">Featured Products</div>
-                <div class="products_listing">
+
+                <div id='collection-component-1725460566443'></div>
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function () {
+                        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                        if (window.ShopifyBuy) {
+                            if (window.ShopifyBuy.UI) {
+                                ShopifyBuyInit();
+                            } else {
+                                loadScript();
+                            }
+                        } else {
+                            loadScript();
+                        }
+                        function loadScript() {
+                            var script = document.createElement('script');
+                            script.async = true;
+                            script.src = scriptURL;
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                            script.onload = ShopifyBuyInit;
+                        }
+                        function ShopifyBuyInit() {
+                            var client = ShopifyBuy.buildClient({
+                                domain: 'b57b1b-d5.myshopify.com',
+                                storefrontAccessToken: '545bebc64777bc2b4143347cf13dff0d',
+                            });
+                            ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                ui.createComponent('collection', {
+                                    id: '446834376939',
+                                    node: document.getElementById('collection-component-1725460566443'),
+                                    moneyFormat: 'R%20%7B%7Bamount%7D%7D',
+                                    options: {
+                                        "product": {
+                                            "styles": {
+                                                "product": {
+                                                    "@media (max-width: 601px)": {
+                                                        "border": "solid 1px #F5D57A",
+                                                        "border-radius": "5px",
+                                                        "padding": "20px",
+                                                    },
+                                                    "@media (min-width: 601px)": {
+                                                        "max-width": "calc(25% - 20px)",
+                                                        "margin-left": "20px",
+                                                        "margin-bottom": "50px",
+                                                        "width": "calc(25% - 20px)",
+                                                        "border": "solid 1px #F5D57A",
+                                                        "border-radius": "5px",
+                                                        "padding": "20px",
+                                                    },
+                                                    "img": {
+                                                        "height": "calc(100% - 15px)",
+                                                        "position": "absolute",
+                                                        "left": "0",
+                                                        "right": "0",
+                                                        "top": "0"
+                                                    },
+                                                    "imgWrapper": {
+                                                        "padding-top": "calc(75% + 15px)",
+                                                        "position": "relative",
+                                                        "height": "0"
+                                                    }
+                                                },
+                                                "title": {
+                                                    "font-weight": "normal",
+                                                    "color": "#ffffff"
+                                                },
+                                                "button": {
+                                                    "color": "#f5d57a",
+                                                    ":hover": {
+                                                        "color": "#f5d57a",
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    "background-color": "#151e25",
+                                                    ":focus": {
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    "border-radius": "5px",
+                                                    "padding-left": "24px",
+                                                    "padding-right": "24px",
+                                                    "border": "solid 1px #F5D57A"
+                                                },
+                                                "price": {
+                                                    "font-size": "24px",
+                                                    "color": "#ffffff"
+                                                },
+                                                "compareAt": {
+                                                    "font-size": "20.4px",
+                                                    "color": "#ffffff"
+                                                },
+                                                "unitPrice": {
+                                                    "font-size": "20.4px",
+                                                    "color": "#ffffff"
+                                                }
+                                            },
+                                            "buttonDestination": "modal",
+                                            "contents": {
+                                                "options": false
+                                            },
+                                            "text": {
+                                                "button": "View Product"
+                                            }
+                                        },
+                                        "productSet": {
+                                            "styles": {
+                                                "products": {
+                                                    "@media (min-width: 601px)": {
+                                                        "margin-left": "-20px"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "modalProduct": {
+                                            "contents": {
+                                                "img": false,
+                                                "imgWithCarousel": true,
+                                                "button": false,
+                                                "buttonWithQuantity": true
+                                            },
+                                            "styles": {
+                                                "product": {
+                                                    "@media (min-width: 601px)": {
+                                                        "max-width": "100%",
+                                                        "margin-left": "0px",
+                                                        "margin-bottom": "0px"
+                                                    }
+                                                },
+                                                "button": {
+                                                    "color": "#151e25",
+                                                    ":hover": {
+                                                        "color": "#f5d57a",
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    "background-color": "#F5D57A",
+                                                    ":focus": {
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    "border-radius": "5px",
+                                                    "padding-left": "24px",
+                                                    "padding-right": "24px",
+                                                },
+                                                "title": {
+                                                    "font-family": "Helvetica Neue, sans-serif",
+                                                    "font-weight": "bold",
+                                                    "font-size": "26px",
+                                                    "color": "#f5d57a"
+                                                },
+                                                "price": {
+                                                    "font-family": "Helvetica Neue, sans-serif",
+                                                    "font-weight": "normal",
+                                                    "font-size": "18px",
+                                                    "color": "#f5d57a"
+                                                },
+                                                "compareAt": {
+                                                    "font-family": "Helvetica Neue, sans-serif",
+                                                    "font-weight": "normal",
+                                                    "font-size": "15.299999999999999px",
+                                                    "color": "#f5d57a"
+                                                },
+                                                "unitPrice": {
+                                                    "font-family": "Helvetica Neue, sans-serif",
+                                                    "font-weight": "normal",
+                                                    "font-size": "15.299999999999999px",
+                                                    "color": "#f5d57a"
+                                                },
+                                                "description": {
+                                                    "color": "#f5d57a"
+                                                }
+                                            },
+                                            "text": {
+                                                "button": "BUY NOW"
+                                            }
+                                        },
+                                        "modal": {
+                                            "styles": {
+                                                "modal": {
+                                                    "background-color": "#151e25",
+                                                }
+                                            }
+                                        },
+                                        "option": {},
+                                        "cart": {
+                                            "styles": {
+                                                "button": {
+                                                    "color": "#f5d57a",
+                                                    ":hover": {
+                                                        "color": "#f5d57a",
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    "background-color": "#151e25",
+                                                    "border": "solid 1px #F5D57A",
+                                                    ":focus": {
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    "border-radius": "5px"
+                                                },
+                                                "title": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "header": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "lineItems": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "subtotalText": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "subtotal": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "notice": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "currency": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "close": {
+                                                    "color": "#ffffff",
+                                                    ":hover": {
+                                                        "color": "#ffffff"
+                                                    }
+                                                },
+                                                "empty": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "noteDescription": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "discountText": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "discountIcon": {
+                                                    "fill": "#ffffff"
+                                                },
+                                                "discountAmount": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "cart": {
+                                                    "background-color": "#151e25"
+                                                },
+                                                "footer": {
+                                                    "background-color": "#151e25"
+                                                }
+                                            },
+                                            "text": {
+                                                "total": "Subtotal",
+                                                "button": "Checkout"
+                                            },
+                                            "popup": false
+                                        },
+                                        "toggle": {
+                                            "styles": {
+                                                "toggle": {
+                                                    "background-color": "#151e25",
+                                                    ":hover": {
+                                                        "background-color": "#24333f"
+                                                    },
+                                                    ":focus": {
+                                                        "background-color": "#24333f"
+                                                    }
+                                                },
+                                                "count": {
+                                                    "color": "#f5d57a",
+                                                    ":hover": {
+                                                        "color": "#f5d57a"
+                                                    }
+                                                },
+                                                "iconPath": {
+                                                    "fill": "#f5d57a"
+                                                }
+                                            }
+                                        },
+                                        "lineItem": {
+                                            "styles": {
+                                                "variantTitle": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "title": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "price": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "fullPrice": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "discount": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "discountIcon": {
+                                                    "fill": "#ffffff"
+                                                },
+                                                "quantity": {
+                                                    "color": "#ffffff"
+                                                },
+                                                "quantityIncrement": {
+                                                    "color": "#ffffff",
+                                                    "border-color": "#ffffff"
+                                                },
+                                                "quantityDecrement": {
+                                                    "color": "#ffffff",
+                                                    "border-color": "#ffffff"
+                                                },
+                                                "quantityInput": {
+                                                    "color": "#ffffff",
+                                                    "border-color": "#ffffff"
+                                                }
+                                            }
+                                        }
+                                    },
+                                });
+                            });
+                        }
+                    })();
+                    /*]]>*/
+                </script>
+
+                <!--
+                    <div class="products_listing">
                     <div class="products_card">
                         <img src="./images/prod1.png" alt="Product photo for the fragrance">
                         <div class="product_content">
@@ -119,6 +439,7 @@
                     </div>
 
                 </div>
+                -->
             </div>
 
             <!-- REVIEWS SECTION -->
@@ -129,10 +450,10 @@
                         <div class="review_title">John Doe</div>
                         <div class="review_rating">
                             <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
                         </div>
                         <div class="review_comment">
                             I do like this because the blend of wam
@@ -145,10 +466,10 @@
                         <div class="review_title">John Doe</div>
                         <div class="review_rating">
                             <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
                         </div>
                         <div class="review_comment">
                             I do like this because the blend of wam
@@ -161,10 +482,10 @@
                         <div class="review_title">John Doe</div>
                         <div class="review_rating">
                             <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
-                        <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
+                            <span class="bx bxs-star checked"></span>
                         </div>
                         <div class="review_comment">
                             I do like this because the blend of wam
@@ -178,7 +499,7 @@
             </div>
 
             <!-- CONTACT SECTION -->
-             <div class="contact_section">
+            <div class="contact_section" id="contact">
                 <div class="contact_heading">Get In Touch</div>
                 <div class="contact_card">
                     <div class="contact_content">
@@ -193,17 +514,18 @@
                         </div>
                         <div class="contact_column">
                             <div class="contact_title">We’re here for you</div>
-                            <div class="contact_description">We will answer any question you may have about our products. Monday to Friday from 09:00 to 17:00 GMT +2</div>
+                            <div class="contact_description">We will answer any question you may have about our
+                                products. Monday to Friday from 09:00 to 17:00 GMT +2</div>
                             <div class="social_links">
-                                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                                <a href="#"><i class='bx bxl-tiktok' ></i></a>
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-tiktok'></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-             </div>
+            </div>
         </div>
     </main>
 
