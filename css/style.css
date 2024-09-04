@@ -173,6 +173,10 @@ header {
     align-items: center;
 }
 
+.products_heading {
+    margin-bottom: 2rem;
+}
+
 .products_listing,
 .reviews_listing {
     display: grid;
@@ -409,6 +413,10 @@ footer i {
     .products_listing,
     .reviews_listing, .contact_content {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reviews_section {
+        align-items: start;
     }
 
     .footer_content,
